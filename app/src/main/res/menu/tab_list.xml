@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_black_18dp"
+        android:title="홈"
+        android:checked="true"
+        android:iconTint="@color/home"/>
+    <item
+        android:id="@+id/corona"
+        android:icon="@drawable/corona_black_18dp"
+        android:title="코로나 이슈" />
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/map_black_18dp"
+        android:title="지도"
+        />
+    <item
+        android:id="@+id/myMedicine"
+        android:icon="@drawable/medicine_black_18dp"
+        android:title="복약정보"
+        />
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "729784474827",
+    "firebase_url": "https://homespitalfcm.firebaseio.com",
+    "project_id": "homespitalfcm",
+    "storage_bucket": "homespitalfcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729784474827:android:7e7d299e99783535528f4e",
+        "android_client_info": {
+          "package_name": "com.kosmo.homespital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729784474827-tg5443l7djcsnpk058lsqjiptcpe7k58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kosmo.homespital",
+            "certificate_hash": "b074827e2cded2b2493030e28fd8b197be35de16"
+          }
+        },
+        {
+          "client_id": "729784474827-p4rq9v5pqocicbvdf2l4jnlbis3ggob5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8XFyMbPC5G1Xwe6c8bG-0yf5Ucqkkybg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729784474827-p4rq9v5pqocicbvdf2l4jnlbis3ggob5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

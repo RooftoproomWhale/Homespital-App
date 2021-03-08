@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="16dp"
+    tools:context=".RegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <EditText
+                android:id="@+id/etRegName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:hint="Name"
+                android:textColorHint="@color/secondary_text"
+                android:textColor="@color/primary_text"
+                android:maxLines="1"
+                android:drawableLeft="@mipmap/ic_name" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2196F3" />
+            <EditText
+                android:id="@+id/etRegPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:padding="8dp"
+                android:hint="Phone number"
+                android:textColorHint="@color/secondary_text"
+                android:textColor="@color/primary_text"
+                android:maxLines="1"
+                android:drawableLeft="@mipmap/ic_phone" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2196F3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_gender"
+                    android:paddingRight="12dp"/>
+
+                <RadioGroup
+                    android:id="@+id/radiogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    >
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="남자"/>
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="여자"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2196F3" />
+
+            <EditText
+                android:id="@+id/etRegAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="number"
+                android:padding="8dp"
+                android:hint="Age"
+                android:textColorHint="@color/secondary_text"
+                android:textColor="@color/primary_text"
+                android:maxLines="1"
+                android:drawableLeft="@mipmap/ic_age" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2196F3" />
+
+            <EditText
+                android:id="@+id/etRegEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:hint="Email"
+                android:textColorHint="@color/secondary_text"
+                android:textColor="@color/primary_text"
+                android:maxLines="1"
+                android:drawableLeft="@mipmap/ic_email" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2196F3" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etRegPassword"
+                android:drawablePadding="12dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColorHint="@color/secondary_text"
+                android:textColor="@color/primary_text"
+                android:hint="Password"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@mipmap/ic_lock" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2196F3" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etRegConfirmPassword"
+                android:drawablePadding="12dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColorHint="@color/secondary_text"
+                android:textColor="@color/primary_text"
+                android:hint="Confirm Password"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@mipmap/ic_lock" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#2196F3" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRegRegister"
+                android:background="@drawable/background_login"
+                android:text="회원가입"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="30dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="18sp"
+                android:textColor="#FFFFFF"
+                android:padding="16dp"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/tvSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="이미 회원이신가요? 로그인하세요!"
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
